@@ -29,5 +29,5 @@ function runAfter1s(fn) {
     setTimeout(fn, 3000);
 }
 runAfter1s(function () {
-    return 'hi there';
+    console.log('hi there');
 });
