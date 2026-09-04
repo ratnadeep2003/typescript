@@ -1,4 +1,4 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-const x = 1;
+const x = 101;
 console.log(x);
