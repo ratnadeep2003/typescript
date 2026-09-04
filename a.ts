@@ -28,3 +28,11 @@ function isLegal(age: number): boolean{
     }
 }
 console.log(isLegal(21));
+//------------------------------------------------------------------------------------------------------
+//to give type to a function which is inside a function 
+function runAfter1s(fn: () => void){
+    setTimeout(fn, 3000);
+}
+runAfter1s(function(){
+    console.log('hi there');
+})

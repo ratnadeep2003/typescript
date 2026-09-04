@@ -23,3 +23,11 @@ function isLegal(age) {
     }
 }
 console.log(isLegal(21));
+//------------------------------------------------------------------------------------------------------
+//to give type to a function which is inside a function 
+function runAfter1s(fn) {
+    setTimeout(fn, 3000);
+}
+runAfter1s(function () {
+    return 'hi there';
+});
