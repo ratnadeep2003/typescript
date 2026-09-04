@@ -1,1 +1,1 @@
-{"version":"7.0.2","root":["./src/a.ts","./src/class-interface.ts","./src/interface.ts"],"packageJsons":["./package.json"]}
+{"version":"7.0.2","root":["./src/a.ts","./src/class-interface.ts","./src/enum.ts","./src/interface.ts","./src/type.ts"],"packageJsons":["./package.json"]}
