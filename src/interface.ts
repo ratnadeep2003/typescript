@@ -34,7 +34,8 @@
 interface User{ //define an interface to avoid code repeatition for the below object
     fname: string,
     lname: string,
-    age: number
+    age: number,
+    email?: string //optional
 }
 
 const myuser: User ={ //the object = myuser based on the datatype provided in interface
