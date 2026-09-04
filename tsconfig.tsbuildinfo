@@ -1,1 +1,1 @@
-{"version":"7.0.2","root":["./src/a.ts"],"packageJsons":["./package.json"]}
+{"version":"7.0.2","root":["./src/a.ts","./src/interface.ts"],"packageJsons":["./package.json"]}
